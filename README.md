@@ -6,6 +6,26 @@ This project is a blockchain implementation in Go that stores book details. It p
 2. `http://localhost:3000/` (POST) - Write data to the blockchain.
 3. `http://localhost:3000/` (GET) - Retrieve the blockchain.
 
+## How to Run
+
+To run the project, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/IbrahimGhasia/GoLang-Blockchain.git
+   ```
+
+2. Then go to the directory
+   ```
+   cd GoLang-Blockchain
+   ```
+
+3. Run the main.go file 
+   ```
+   go run main.go
+   ```
+
+This will start the GoLang-Blockchain project on your local server. You can then use the specified routes to interact with the blockchain as described in the "Usage" section below.
 ## Usage
 
 ### Create a New Book
